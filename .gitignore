@@ -29,10 +29,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-results/
-*.png
-*.mp4
-*.zip
 __pycache__/
 venv/
 node_modules/
