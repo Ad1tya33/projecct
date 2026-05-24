@@ -1,0 +1,44 @@
+# ── CarMaker runtime installation (binaries, DLLs, CUDA libs) ──
+CM_15/carmaker/
+
+# ── CarMaker compiled outputs ──
+CM_15/bin/
+CM_15/src/*.exe
+CM_15/src/*.o
+CM_15/src/*.dll
+CM_15/src/*.mexw64
+
+# ── CarMaker simulation output logs (raw, hundreds of files) ──
+# Final results go in results/LKA/ — raw logs stay local
+CM_15/SimOutput/
+
+# ── CarMaker video renders ──
+CM_15/Movie/
+CM_15/MovieNX/
+
+# ── CarMaker temp/lock files ──
+CM_15/Data/**/.tmp_*
+**/.tmp_*
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+
+# ── OS junk ──
+.DS_Store
+Thumbs.db
+
+results/
+*.png
+*.mp4
+*.zip
+__pycache__/
+venv/
+node_modules/
+
+# ── Restructure helper scripts (not submission material) ──
+restructure_lka.command
+push.command
+fix_and_push.command
+clone_submission_repo.command
